@@ -1,0 +1,4 @@
+seta lauf "+sprint; seta sprintswitch vstr geh; echo Sprinting..." 
+seta geh "-sprint; seta sprintswitch vstr lauf; echo Walking..." 
+seta sprintswitch "vstr lauf" 
+bind  SHIFT "vstr sprintswitch"
